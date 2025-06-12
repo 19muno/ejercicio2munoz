@@ -35,27 +35,74 @@ button {
   border-radius: 100px;
   cursor: pointer;
 }
-.feature {
+.button1 {
+  margin-top: 200px;
+  padding: 10px 20px;
+  background: #e86c1a;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+section.feature {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 40px 20px;
   flex-wrap: wrap;
 }
 
-.feature.reverse {
-  flex-direction: row-reverse;
+section.feature.reverse {
+  flex-direction: row;
 }
 
-.feature .text {
+section.feature .text {
   flex: 1;
   min-width: 280px;
   max-width: 500px;
   margin: 20px;
 }
 
-.feature img {
+section.feature img {
   width: 250px;
   height: auto;
   border-radius: 8px;
+}
+.imagen_fondo2 {
+  background: url('../assets/img/bgDown.png') ;
+  background-size: cover ;
+  padding: 100px 40px;
+  width: 100vw;
+  height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;  
+}
+.footer {
+  background-color: #f27121;
+  color: white;
+  padding: 100px 40px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.footer h4 {
+  margin-bottom: 0.5em;
+}
+
+.footer p {
+  margin: 0.2em 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 0.9em;
 }
